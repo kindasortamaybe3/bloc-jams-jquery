@@ -10,6 +10,7 @@
 #song-number-column {
   width: 40px;
 }
+
 #song-duration-column {
   width: 80px;
 }
@@ -30,10 +31,10 @@ tr.paused .ion-play {
   display: block;
 }
 
-tr .ion-play, 
+tr .ion-play,
 tr .ion-pause,
 tr:hover .song-number,
-tr.playing .ion-play, 
+tr.playing .ion-play,
 tr.playing .song-number,
 tr.paused .ion-pause,
 tr.paused .song-number {
@@ -71,12 +72,13 @@ tr button {
 
 tr button:focus {
   outline: none;
-  text-shadow: 2px 4px 3px hsla(0,0%,0%,0.25);
+  text-shadow: 2px 4px 3px hsla(0, 0%, 0%, 0.25);
 }
 
 tr button:focus .song-number {
   display: none;
 }
+
 tr button:focus .ion-play {
   display: block;
 }
@@ -85,6 +87,7 @@ tr.playing button:focus .song-number,
 tr.playing button:focus .ion-play {
   display: none;
 }
+
 tr.playing button:focus .ion-pause {
   display: block;
 }
@@ -99,6 +102,6 @@ tr.playing button:focus .ion-pause {
 }
 
 .song-duration {
-  color: hsla(0, 0%, 100%, 0.5);  
+  color: hsla(0, 0%, 100%, 0.5);
   text-align: right;
 }
