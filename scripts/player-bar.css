@@ -1,0 +1,11 @@
+#play-pause .ion-pause {
+    display: none;
+}
+
+#play-pause [playState="playing"] .ion-pause {
+    display: block;
+}
+
+#play-pause[playState="playing"] .ion-play {
+    display: none;
+}
